@@ -12,7 +12,7 @@ To build the container, you need the command line `docker`.
 For installation instruction on different platforms, consult [the Docker documentation](https://docs.docker.com/install/).
 For general information about `Docker`, see the [getting started](https://docs.docker.com/get-started/) guide.
 
-Once you have installed docker, clone this repository and run the build the container:
+Once you have installed docker, clone this repository and build the container:
 
 ```shell
 $ git clone https://github.com/JuliaReach/ARCH2019_RE.git
