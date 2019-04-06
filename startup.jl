@@ -17,7 +17,7 @@ function main()
         if input ∈ categories
             println("Running $input benchmarks...")
             terminate = true
-            include("benchmarks/models/ARCH/$input/ARCH-COMP_2019.jl")
+            include("models/$input/ARCH-COMP_2019.jl")
         else
             println("Sorry, input $input is not allowed, please try again.")
         end
