@@ -5,7 +5,8 @@ FROM julia:1.1.0
 # - make & C compiler  (for building CRlibm)
 # - HDF5 & SZIP & zlib  (for MAT.jl)
 # - QT  (for GR.jl)
-RUN apt-get update && apt-get -qy install make gcc hdf5-tools libsz2 libz-dev libqt5widgets5
+# - LaTeX & divpng  (for LaTeXStrings.jl)
+RUN apt-get update && apt-get -qy install make gcc hdf5-tools libsz2 libz-dev libqt5widgets5 texlive-latex-base dvipng
 
 # set working directory
 WORKDIR /juliareach
