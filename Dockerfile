@@ -4,7 +4,7 @@ FROM julia:1.1.0
 # install external dependencies:
 # - make & C compiler  (for building CRlibm)
 # - HDF5 & SZIP & zlib  (for MAT.jl)
-RUN apt-get update && apt-get -qy install make gcc hdf5-tools libsz2 zlib1g
+RUN apt-get update && apt-get -qy install make gcc hdf5-tools libsz2 libz-dev
 
 # set working directory
 WORKDIR /juliareach
