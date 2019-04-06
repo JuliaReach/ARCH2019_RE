@@ -1,23 +1,17 @@
 # ISS benchmark
+println("###\nRunning Spacestation benchmark\n###")
 include("SpaceStation/iss_benchmark.jl")
 
 # Spacecraft Rendezvous benchmark
+println("###\nRunning Spacecraft Rendezvous benchmark\n###")
 include("Rendezvous/SpacecraftRendezvous_benchmark.jl")
 
-# Powertrain benchmark
-# N/A
-
 # Building benchmark
+println("###\nRunning Building benchmark\n###")
 include("Building/building_benchmark.jl")
 
 # Platooning benchmark
+println("###\nRunning Platooning benchmark\n###")
 include("Platooning/Platooning_benchmark.jl")
-
-# Gearbox benchmark
-# include("Gearbox/Gearbox.jl")
-# system, options = gearbox()
-# res = run_gearbox(system, options)
-# @assert res.satisfied
-# @time run_gearbox(system, options)
 
 nothing
