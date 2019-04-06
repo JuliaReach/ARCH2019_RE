@@ -95,7 +95,7 @@ plot(sol_1,
      size=(1000, 1000), linecolor="red", color="red")
 
 plot!(x->x, x->2.75, -3., 3., line=2, color="red", linestyle=:dash, legend=nothing)
-savefig(@relpath "vanderpol_case_1.png")
+savefig("vanderpol_case_1.png")
 
 # --------------------------
 # Case 2
@@ -113,7 +113,7 @@ for i in 1:nsplits_x
                    size=(1000, 1000), color="blue", linewidth=0.0, linecolor="blue", alpha=.5)
 end
 
-savefig(plot_2, @relpath "vanderpol_case_2.png")
+savefig(plot_2, "vanderpol_case_2.png")
 
 # --------------------------
 # Cases 1 and 2 overlapped
@@ -141,4 +141,4 @@ plot!(plot_all, sol_1, tickfont=font(30, "Times"), guidefontsize=45,
 
 plot!(plot_all, x->x, x->2.75, -2.5, 2.5, line=2, color="red", linestyle=:dash, legend=nothing)
 
-savefig(plot_all, @relpath "vanderpol_case_all.png")
+savefig(plot_all, "vanderpol_case_all.png")
