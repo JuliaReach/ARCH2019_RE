@@ -5,7 +5,7 @@ install and precompile required Julia packages
 # --- installation ---
 
 # install released packages with their exact versions
-import Pkg
+using Pkg
 Pkg.activate(@__DIR__)
 Pkg.instantiate()
 
