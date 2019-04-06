@@ -1,3 +1,6 @@
+# deactivate plot GUI, which is not available in Docker
+ENV["GKSwstype"] = "100"
+
 function main()
     categories = ["AFF", "NLN"]
     print("Which benchmark suite should we run? [")
