@@ -26,6 +26,16 @@ To run the container, type:
 $ docker run -i juliareach
 ```
 
+Or to run it interactivately, type:
+
+```shell
+$ docker run -it juliareach
+
+$ julia
+
+julia> include("startup.jl")
+```
+
 ## Models
 
 The models are copied from [our model repository](https://github.com/JuliaReach/ReachabilityBenchmarks).

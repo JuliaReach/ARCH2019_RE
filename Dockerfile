@@ -27,3 +27,6 @@ CMD ["julia", "startup.jl"]
 #
 # to run the container:
 # $ docker run -i juliareach
+#
+# to run the container interactively:
+# $ docker run -it juliareach bash
