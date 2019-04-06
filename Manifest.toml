@@ -294,7 +294,7 @@ version = "1.0.3"
 
 [[LazySets]]
 deps = ["Compat", "Distributed", "Expokit", "GLPKMathProgInterface", "IntervalArithmetic", "LinearAlgebra", "MathProgBase", "Pkg", "Random", "RecipesBase", "Requires", "SharedArrays", "SparseArrays"]
-git-tree-sha1 = "67444d2964fcc832840847150487143981cb463b"
+git-tree-sha1 = "ccddcd22f7642597113cbbde0d4ceab5add3c20e"
 uuid = "b4f0291d-fe17-52bc-9479-3d1a343d9043"
 version = "1.10.0"
 
@@ -383,7 +383,7 @@ version = "0.7.7"
 
 [[MathematicalSystems]]
 deps = ["Espresso", "LinearAlgebra", "MultivariatePolynomials", "SparseArrays", "Test"]
-git-tree-sha1 = "53110db3e8242137d11730881c198a73f58804e1"
+git-tree-sha1 = "d7c716ed9bab5d07c2de14891df27caab7cc505f"
 uuid = "d14a8603-c872-5ed3-9ece-53e0e82e39da"
 version = "0.6.4"
 
