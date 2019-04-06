@@ -20,8 +20,8 @@ $ cd ARCH2019_RE
 $ docker build . -t juliareach
 ```
 
-To run the container, do:
+To run the container, type:
 
 ```shell
-$ docker run juliareach
+$ docker run -i juliareach
 ```

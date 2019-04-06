@@ -31,4 +31,4 @@ CMD ["julia", "startup.jl"]
 # $ docker build . -t juliareach
 #
 # to run the container:
-# $ docker run juliareach
+# $ docker run -i juliareach
