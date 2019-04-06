@@ -25,3 +25,8 @@ To run the container, type:
 ```shell
 $ docker run -i juliareach
 ```
+
+## Models
+
+The models are copied from [our model repository](https://github.com/JuliaReach/ReachabilityBenchmarks).
+The specific version used here was commit SHA 4bcabbd5e4a31fb0cb52896e2efd750a61aef252.
