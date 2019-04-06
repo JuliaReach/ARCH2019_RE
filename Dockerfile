@@ -19,15 +19,3 @@ RUN julia install_dependencies.jl
 
 # run when container launches
 CMD ["julia", "startup.jl"]
-
-
-# short manual
-#
-# to build the container:
-# $ docker build . -t juliareach
-#
-# to run the container:
-# $ docker run -i juliareach
-#
-# to run the container interactively:
-# $ docker run -it juliareach bash
