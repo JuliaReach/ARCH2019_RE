@@ -2,32 +2,29 @@
 install and precompile required Julia packages
 =============================================#
 
+# --- installation ---
+
+# install released packages with their exact versions
 using Pkg
+Pkg.activate(@__DIR__)
+Pkg.instantiate()
 
-# installation
-packages = [
-    ("https://github.com/JuliaReach/Reachability.jl", "Reachability"),
-    ("https://github.com/JuliaReach/SX.jl", "SX"),
-    ("Polyhedra", "Polyhedra"),
-    ("BenchmarkTools", "BenchmarkTools"),
-    ("Plots", "Plots"),
-    ("LaTeXStrings", "LaTeXStrings")
-    ]
-for (p1, p2) in packages
-    if p1 == p2
-        Pkg.add(p1)
-    else
-        Pkg.clone(p1)
-    end
-end
-for (p1, p2) in packages
-    Pkg.build(p2)
-end
+# install unreleased packages
+Pkg.add([
+    PackageSpec(url="https://github.com/JuliaReach/Reachability.jl",
+                rev="cb7a0b32e8423ef103539cbda849fa1fff7af2ce"),
+    PackageSpec(url="https://github.com/JuliaReach/SX.jl",
+                rev="9f0f8bdb18add80df6a36fc80b6d23c0fae703fe")
+])
 
-# enforce precompilation
+# --- precompilation ---
+
 import Reachability
 import SX
 import Polyhedra
+import Optim
+import MAT
 import BenchmarkTools
 import Plots
+import GR
 import LaTeXStrings
