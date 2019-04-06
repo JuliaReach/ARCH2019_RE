@@ -44,9 +44,8 @@ The specific version used here was commit SHA 4bcabbd5e4a31fb0cb52896e2efd750a61
 ## Plots
 
 The plots are stored in the main folder as `*.png` files.
-To obtain these files, run the image interactively, specify an output folder, and in the end copy the files to the output folder.
-In the example below we call the output folder `result`.
-Make sure that this folder exists.
+To obtain these files, run the image interactively, specify an output volume, and in the end copy the files to the output volume.
+In the example below we call the output volume `result`.
 
 ```shell
 $ docker run -it -v result:/result juliareach bash
