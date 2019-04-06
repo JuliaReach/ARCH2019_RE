@@ -29,7 +29,7 @@ $ docker run -i juliareach
 Or to run it interactivately, type:
 
 ```shell
-$ docker run -it juliareach
+$ docker run -it juliareach bash
 
 $ julia
 
