@@ -9,6 +9,7 @@ using Pkg
 Pkg.add([
 # fix important external libraries
     PackageSpec(name="Polyhedra", version="0.4.5"),
+    PackageSpec(name="MAT", version="0.5.0"),
     PackageSpec(name="HybridSystems", version="0.1.4"),
     PackageSpec(name="TaylorModels", version="0.1.0"),
     PackageSpec(name="TaylorSeries", version="0.9.1"),
@@ -32,6 +33,7 @@ Pkg.add([
 import Reachability
 import SX
 import Polyhedra
+import MAT
 import BenchmarkTools
 import Plots
 import LaTeXStrings
