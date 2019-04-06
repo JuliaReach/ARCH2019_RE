@@ -17,6 +17,7 @@ Pkg.add([
 # additional packages for benchmarking and plotting
     PackageSpec(name="BenchmarkTools", version="0.4.2"),
     PackageSpec(name="Plots", version="0.24.0"),
+    PackageSpec(name="GR", version="0.38.1"),
     PackageSpec(name="LaTeXStrings", version="1.0.3"),
 
 # JuliaReach packages
@@ -36,4 +37,5 @@ import Polyhedra
 import MAT
 import BenchmarkTools
 import Plots
+import GR
 import LaTeXStrings
