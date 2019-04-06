@@ -6,8 +6,8 @@ using Pkg
 
 # --- installation ---
 
-# fix important external libraries
 Pkg.add([
+# fix important external libraries
     PackageSpec(name="Polyhedra", version="0.4.5"),
     PackageSpec(name="HybridSystems", version="0.1.4"),
     PackageSpec(name="TaylorModels", version="0.1.0"),
@@ -24,12 +24,8 @@ Pkg.add([
     PackageSpec(url="https://github.com/JuliaReach/Reachability.jl",
                 rev="cb7a0b32e8423ef103539cbda849fa1fff7af2ce"),
     PackageSpec(url="https://github.com/JuliaReach/SX.jl",
-                rev="9f0f8bdb18add80df6a36fc80b6d23c0fae703fe"),
-
-# benchmark models
-    PackageSpec(url="https://github.com/JuliaReach/ReachabilityBenchmarks",
-                rev="4bcabbd5e4a31fb0cb52896e2efd750a61aef252")
-    ])
+                rev="9f0f8bdb18add80df6a36fc80b6d23c0fae703fe")
+])
 
 # --- precompilation ---
 
