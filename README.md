@@ -26,7 +26,7 @@ To run the container, type:
 $ docker run -i juliareach
 ```
 
-Or to run it interactivately, type:
+Or to run it interactively, type:
 
 ```shell
 $ docker run -it juliareach bash
@@ -44,7 +44,7 @@ The specific version used here was commit SHA 4bcabbd5e4a31fb0cb52896e2efd750a61
 ## Plots
 
 The plots are stored in the main folder as `*.png` files.
-To obtain these files, run the image interactivately, specify an output folder, and in the end copy the files to the output folder.
+To obtain these files, run the image interactively, specify an output folder, and in the end copy the files to the output folder.
 In the example below we call the output folder `result`.
 Make sure that this folder exists.
 
