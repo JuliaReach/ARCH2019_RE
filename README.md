@@ -1,12 +1,64 @@
-# ARCH2019_RE
+# ARCH2019 AFF & NLN
 
-This is the repeatability evaluation package for the 3rd International
-Competition on Verifying Continuous and Hybrid Systems Friendly Competition
+This is the JuliaReach repeatability evaluation (RE) package for the ARCH-COMP
+2019 category reports *Continuous and Hybrid Systems with Linear Continuous
+Dynamics* and *Continuous and Hybrid Systems with Nonlinear Dynamics* of the 3rd
+International Competition on Verifying Continuous and Hybrid Systems
 (ARCH-COMP '19).
 
-This year the ARCH workshop will be held on April 15, 2019, in Montreal, as part
-of [Cyber-Physical Systems and Internet-Of-Things
-Week](http://cpslab.cs.mcgill.ca/cpsiotweek2019/).
+To cite the works, you can use:
+
+```
+@inproceedings{AlthoffBFFK0SS19,
+  author    = {Matthias Althoff and
+               Stanley Bak and
+               Marcelo Forets and
+               Goran Frehse and
+               Niklas Kochdumper and
+               Rajarshi Ray and
+               Christian Schilling and
+               Stefan Schupp},
+  editor    = {Goran Frehse and
+               Matthias Althoff},
+  title     = {{ARCH-COMP19} Category Report: Continuous and Hybrid Systems with
+               Linear Continuous Dynamics},
+  booktitle = {{ARCH}},
+  series    = {EPiC Series in Computing},
+  volume    = {61},
+  pages     = {14--40},
+  publisher = {EasyChair},
+  year      = {2019},
+  url       = {https://doi.org/10.29007/bj1w},
+  doi       = {10.29007/bj1w}
+}
+```
+
+```
+@inproceedings{ImmlerABC0FGKSS19,
+  author    = {Fabian Immler and
+               Matthias Althoff and
+               Luis Benet and
+               Alexandre Chapoutot and
+               Xin Chen and
+               Marcelo Forets and
+               Luca Geretti and
+               Niklas Kochdumper and
+               David P. Sanders and
+               Christian Schilling},
+  editor    = {Goran Frehse and
+               Matthias Althoff},
+  title     = {{ARCH-COMP19} Category Report: Continuous and Hybrid Systems with
+               Nonlinear Dynamics},
+  booktitle = {{ARCH}},
+  series    = {EPiC Series in Computing},
+  volume    = {61},
+  pages     = {41--61},
+  publisher = {EasyChair},
+  year      = {2019},
+  url       = {https://doi.org/10.29007/m75b},
+  doi       = {10.29007/m75b}
+}
+```
 
 ## Installation
 
